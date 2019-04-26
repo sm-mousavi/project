@@ -26,14 +26,15 @@ body,td,th {
       <div  class="menu_nav" >
         <ul>
        <?php
-		   $i=1;
 		   foreach($info as $row)
 		   {
-				echo'
-				<li><a href="'.base_url().'index.php/welcome/show_menu/'.$row['id_link'].'" target="_self">
-				 <span> '.$row['Name_link'].'</span>
-				</a></li>';
-				$i++;
+		       ?>
+                <li>
+                    <a href="<?php echo base_url() . 'index.php/welcome/show_menu/' . $row['id_link']; ?>" target="_self">
+                        <span><?php echo $row['Name_link']; ?></span>
+                    </a>
+                </li>
+            <?php
 		   }
 	   ?>
         <li><a href="<?php echo base_url() ?>index.php/welcome/user">ثبت نام </a></li>
