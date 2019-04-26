@@ -37,7 +37,7 @@ body,td,th {
 		   }
 	   ?>
         <li><a href="<?php echo base_url() ?>index.php/welcome/user">ثبت نام </a></li>
-        <li><a href="<?php echo base_url() ?>index.php/welcome/albom">آلبوم تصاویر </a></li>
+        <li><a href="<?php echo base_url() ?>index.php/welcome/albom">گالری تصاویر </a></li>
         
         </ul>
       </div>
