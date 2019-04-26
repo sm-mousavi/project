@@ -57,7 +57,6 @@ body,td,th {
       <div class="article" >
      
       <?php
-			  $i=1;
 			  foreach($query as $row)
 			  {
 				   if($row['title']!= '')
@@ -76,8 +75,6 @@ body,td,th {
 					if($row['image']!= '')
 						echo '<p align="center"><img src=" '.base_url().'images/'.$row['image'].'" width="'.$row['Width'].'" height="'.$row['height'].'" alt=""/></p>
 						<p>&nbsp;</p>';
-						
-				  $i++;
   				}
   	?>
          </div>
@@ -145,7 +142,7 @@ body,td,th {
       <div class="gadget">
         <h2 class="star"><p align="center"><font face="Tahoma, Geneva, sans-serif" size="+1">.: ورود به سایت :. </font></h2>
         <div class="clr"></div>
-        <p align="center"><font size="2">برای ورود به سایت لطفا نام کاربری و پسورد خود را وارد کنید </font>
+        <p align="center">
        <form action="<?php echo base_url()?>index.php/welcome/search_user/"  method="POST">
        <table  cellspacing="2" cellpadding="2" border="0" align="center">
        <tr>
