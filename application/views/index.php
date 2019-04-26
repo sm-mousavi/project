@@ -82,12 +82,13 @@
 
             <div class="article">
                 <div class="clr"></div>
-                <p align="center" class="post-data"><img src="<?php echo base_url() ?>images/images-10.jpg" width="100"
-                                                         height="75" alt=""/><img
-                            src="<?php echo base_url() ?>images/images-7.jpg" width="100" height="75" alt=""/><img
-                            src="<?php echo base_url() ?>images/images-3.jpg" width="100" height="75" alt=""/><img
-                            src="<?php echo base_url() ?>images/images-2.jpg" width="100" height="75" alt=""/><img
-                            src="<?php echo base_url() ?>images/images-8.jpg" width="100" height="75" alt=""/></p>
+                <p align="center" class="post-data">
+                    <img src="<?php echo base_url() ?>images/images-10.jpg" width="100" height="75" alt=""/>
+                    <img src="<?php echo base_url() ?>images/images-7.jpg" width="100" height="75" alt=""/>
+                    <img src="<?php echo base_url() ?>images/images-3.jpg" width="100" height="75" alt=""/>
+                    <img src="<?php echo base_url() ?>images/images-2.jpg" width="100" height="75" alt=""/>
+                    <img src="<?php echo base_url() ?>images/images-8.jpg" width="100" height="75" alt=""/>
+                </p>
             </div>
         </div>
 
