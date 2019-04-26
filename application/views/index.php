@@ -135,12 +135,12 @@
                 $i = 1;
                 foreach ($info as $row) {
                     echo '
-                        <li class="active">
-                            <div align="right"><a href="' . base_url() . 'index.php/welcome/show_menu/' . $row['id_link'] . '" target="_self">
-                                 <span> ' . $row['Name_link'] . '</span>
-                                </a>
-                            </div>
-                        </li>';
+>>>>>>> dev01
+				<li class="active">
+            <div align="right"><a href="' . base_url() . 'index.php/welcome/show_menu/' . $row['id_link'] . '" target="_self">
+				 <span> ' . $row['Name_link'] . '</span>
+				</a></div>
+          </li>';
                     $i++;
                 }
                 ?>
